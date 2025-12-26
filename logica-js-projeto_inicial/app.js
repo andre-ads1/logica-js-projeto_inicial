@@ -5,7 +5,7 @@ let chute =prompt("Digite um número entre 0 e 100:");
 
 // se chute for igual ao número secreto
 if (chute == numeroSecreto) {
-    alert("Você acertou! Parabéns!");
+    alert(`Você acertou! Parabéns, Você descobriu o número secreto! ${numeroSecreto}`);
 } else {
     alert("Você errou! Tente novamente!");
 }
